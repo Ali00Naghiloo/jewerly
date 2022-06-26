@@ -1,0 +1,430 @@
+@font-face {
+    font-family: Dana-bold;
+    src: url("../Assets/DanaPro\(10Wt\)/Dana-family/Dana-Regular.ttf");
+}
+
+@font-face {
+    font-family: Dana-Hairline;
+    src: url("../Assets/DanaPro\(10Wt\)/Dana-family/Dana-Hairline.ttf");
+}
+
+@font-face {
+    font-family: Gilory;
+    src: url("../Assets/gilory-font/Gilroy-Heavy.woff");
+}
+
+
+/* -----------------Navigation----------------- */
+
+* {
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+.continer {
+    padding: 0;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Dana-bold;
+    font-size: 17px;
+}
+
+.Logo {
+    width: 4em;
+    margin: 5px 2em;
+    margin-left: 5em;
+}
+
+.continer span {
+    padding: 20px 2em;
+    font-size: 1.3em;
+}
+
+.lan {
+    margin-right: auto;
+    border: none;
+    background: none;
+    color: #fff;
+    cursor: ponter;
+    font-size: 1.5em;
+}
+
+
+
+
+/* ------------------firstlook------------------- */
+
+.continer-1 {
+    padding: 0;
+    height: 80vh;
+    border-bottom: 1px solid rgba(213, 182, 118, 0.24);
+    font-family: Dana-bold;
+    font-size: 17px;
+    line-height: 2em;
+    position: relative;
+}
+
+.banner {
+    width: 30em;
+    position: absolute;
+    left: 2%;
+    top: 3em;
+}
+
+.title-top {
+    font-size: 3em;
+    margin-right: 1.5em;
+    padding-top: 2%;
+}
+
+.title-top1 {
+    color: #D5B676;
+    display: inline;
+    padding: 0;
+}
+
+.title-top2 {
+    letter-spacing: -0.011em;
+    font-size: 3em;
+    margin-right: 1.5em;
+}
+
+.text-top {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7em;
+    margin-right: 1.5em;
+    width: fit-content;
+    margin-top: 30px;
+    letter-spacing: -0.03em;
+    line-height: 5px;
+    opacity: 0.48;
+    font-family: Dana-Hairline;
+}
+
+.shop-btn {
+    width: 10em;
+    border: none;
+    background: #D5B676;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    margin: 2.2em;
+    margin-left: 1em;
+    font-family: Dana-bold;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.call-us-btn {
+    width: 10em;
+    border: none;
+    background: none;
+    text-shadow: 2px 2px 40px #ACACAC;
+    cursor: pointer;
+    padding: 1% 1%;
+    font-family: Dana-bold;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.wwu {
+    margin: 0% 6%;
+    font-size: 1.7em;
+    font-weight: 100;
+    opacity: 48%;
+}
+
+.wwu-pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.scroll-btn {
+    border: 2px solid rgba(213, 182, 118, 0.24);
+    background: #111111;
+    border-radius: 60px;
+    height: 8em;
+    width: 5em;
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+    transform: translate(-50%);
+}
+
+.scroll-btn a {
+    text-decoration: none;
+    width: 140px;
+    position: absolute;
+    top: -2em;
+    font-size: 1.3em;
+    font-family: Dana-bold;
+    opacity: 0.48;
+    transform: translate(30%);
+    text-align: center;
+}
+
+
+
+
+/* ----------------------Groups--------------------- */
+
+.continer-2 {
+    border-bottom: 1px solid rgba(213, 182, 118, 0.24);
+    padding-bottom: 4em;
+    font-size: 17px;
+}
+
+.titles {
+    padding-top: 5%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.group {
+    padding-right: 5%;
+    margin-left: auto;
+    font-size: 2.5em;
+    font-family: Dana-bold;
+}
+
+.see-all {
+    padding-left: 5%;
+    font-size: 1.2em;
+    font-weight: 900;
+    font-family: Dana-Hairline;
+}
+
+.group-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    border-left: 1px solid rgba(213, 182, 118, 0.24);
+}
+
+.group-items img {
+    width: 17em;
+    display: inline;
+}
+
+.group-name {
+    margin: 0 auto;
+    margin-top: 2em;
+    font-family: Dana-bold;
+    font-size: 3em;
+}
+
+.group-number {
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-size: 2em;
+    direction: ltr;
+    font-family: Dana-Hairline;
+}
+
+
+
+
+/* ---------------------Products----------------------- */
+
+.continer-3 {
+    border-bottom: 1px solid rgba(213, 182, 118, 0.24);
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    font-family: Dana-bold;
+    margin-bottom: 5%;
+}
+
+.product img {
+    width: 35vh;
+}
+
+.product span {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* ----------------------Service------------------ */
+
+.continer-4 {
+    border-bottom: 1px solid rgba(213, 182, 118, 0.24);
+    padding-bottom: 7%;
+    font-size: 17px;
+}
+
+.service-item {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(213, 182, 118, 0.24);
+    padding: 0 10%;
+}
+
+.service img {
+    width: 15em;
+}
+
+.service span {
+    margin: 1em auto;
+    font-family: Dana-bold;
+    font-size: 2em;
+}
+
+
+
+
+/* ------------------------Footer------------------- */
+
+.continer-5 {
+    border-bottom: 1px solid rgba(213, 182, 118, 0.24);
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 17px;
+}
+
+.title-continer {
+    display: flex;
+    padding-top: 5em;
+}
+
+.title-continer span {
+    font-family: Dana-bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.title-footer {
+    font-family: Dana-bold;
+    font-size: 1.7em;
+    margin-left: auto;
+    padding: 0;
+}
+
+.Logo-footer {
+    width: 2em;
+    margin-left: 20px;
+}
+
+.footer-text {
+    width: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-text span {
+    font-family: Dana-Hairline;
+    font-size: 1.3em;
+    padding: 3em;
+}
+
+.footer-text section {
+    position: absolute;
+    left: 1.5em;
+    bottom: 15em;
+}
+
+section img {
+    width: 5em;
+    padding-left: 2em;
+}
+
+.footer-addres-number {
+    display: felx;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 5em;
+}
+
+.footer-addres-number span {
+    font-family: Dana-Hairline;
+    font-size: 1.5em;
+}
+
+
+@media screen and (max-width:1700px) {
+
+    .continer-1 , .continer , .continer-4 , .continer-5 {
+        font-size: 11px;
+    }
+
+    .continer-2 , .continer-3 {
+        font-size: 12px;
+    }
+
+    .product img {
+        width: 28vh;
+    }
+}
+
+@media screen and (max-width:1300px) {
+
+    .continer-1 , .continer , .continer-4 , .continer-5 {
+        font-size: 11px;
+    }
+
+    .continer-2 , .continer-3 {
+        font-size: 10px;
+    }
+
+    .product img {
+        width: 23vh;
+    }
+}
+
+@media screen and (max-width:1100px) {
+
+    .continer-1 , .continer , .continer-4 , .continer-5 {
+        font-size: 8px;
+    }
+
+    .continer-2 , .continer-3 {
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .continer-1 , .continer , .continer-4 , .continer-5 {
+        font-size: 6px;
+    }
+
+    .continer-2 , .continer-3 {
+        font-size: 4px;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    .continer-1 , .continer , .continer-4 , .continer-5 {
+        font-size: 3.5px;
+    }
+
+    .continer-2 , .continer-3 {
+        font-size: 2.5px;
+    }
+
+    .wwu-pics {
+        display: none;
+    }
+}
